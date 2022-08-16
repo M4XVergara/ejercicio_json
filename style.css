@@ -8,6 +8,8 @@
 
 body{
   background-color: rgba(123, 12, 140, 0.893);
+  font-family: 'Poppins', sans-serif;
+  padding: 1.5rem;
 }
 
 :root {
@@ -45,7 +47,7 @@ h1 {
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   background-color: aqua;
-  background-image: linear-gradient(160seg, #0093e9 8%, #00dBc7 100%);
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
   color: white;
   border-radius: 10px;
 }
