@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgba(123, 12, 140, 0.893);
+}
+
+:root {
+  font-size: 2rem;
+  max-width: 100vw;
+  margin: 0 auto;
+  font-family: 'poppins', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2.5rem 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_tarjet {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 50vw;
+  padding: 2.5rem 0;
+}
+
+.tarjet {
+  box-shadow: 0 .4rem .5rem 0 rgba(0, 0, 0, 2);
+  width: 20rem;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  background-color: aqua;
+  background-image: linear-gradient(160seg, #0093e9 8%, #00dBc7 100%);
+  color: white;
+  border-radius: 10px;
+}
+
+.tarjet:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+
+}
+
+.tarjet_paragraph {
+  padding: 1rem;
+  color: black;
+
+}
